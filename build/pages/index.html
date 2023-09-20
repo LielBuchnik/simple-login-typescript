@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Notfacebook</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Notfacebook</div>
+        <div class="nav">
+            <a id="welcomeUser-top"></a>
+        </div>
+    </header>
+    <div id="container">
+        <div class="left-side">
+            <div id="form">
+                <h2 style="color: #4A55A2;">Hey There!</h2>
+                <div class="profImg">
+                    <label for="profileImageInput" class="profile-upload-label">
+                        <input type="file" id="profileImageInput" accept="image/*" onchange="handleImageUpload(this)" />
+                        <img class="profile-pic" id="profileImage" src="../assets/images/blank-profile.png" />
+                    </label>
+                </div>
+                <h4 style="color: #4A55A2;">Tell Us How Your Day Has Been</h4>
+                <textarea id="body" type="text" placeholder="Tell Us What Happened Today..."></textarea>
+                <div class="btns">
+                    <button id="addPost">Add Post</button>
+                </div>
+            </div>
+        </div>
+        <div id="log">
+        </div>
+        <script src="../scripts/main.js"></script>
+    </div>
+</body>
+
+</html>

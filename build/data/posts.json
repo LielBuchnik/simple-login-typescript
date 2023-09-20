@@ -1,0 +1,65 @@
+{
+    "CombinedData": {
+        "User": [
+            {
+                "userName": "ImNewHere",
+                "password": "123456"
+            },
+            {
+                "fname": "Eliyahu",
+                "lname": "Asis",
+                "age": 23,
+                "city": "Netanya"
+            },
+            {
+                "fname": "Ben",
+                "lname": "Megidish",
+                "age": 26,
+                "city": "K-G"
+            }
+        ],
+
+        "Post": [
+            {
+                "proimg": "../assets/images/blank-profile.png",
+                "userName": "ImNewHere",
+                "id": 5,
+                "body": "Today I went shopping and got myself some brand new shoes, wanna see?",
+                "likes": 0,
+                "dislikes": 0
+            },
+            {
+                "proimg": "../assets/images/Eliyahu.jpg",
+                "userName": "EliyahuDaNoob",
+                "id": 4,
+                "body": "Is there any user here called Ben Megidish?",
+                "likes": 3,
+                "dislikes": 0
+            },
+            {
+                "proimg": "../assets/images/LielB.jpg",
+                "userName": "LielB",
+                "id": 3,
+                "body": "Blah Blah Blah, Ignore me I'm trying something..",
+                "likes": 999,
+                "dislikes": 0
+            },
+            {
+                "proimg": "../assets/images/mscom.jpg",
+                "userName": "Ms Communication",
+                "id": 2,
+                "body": "Josh is as dumb as I think he is?",
+                "likes": 35,
+                "dislikes": 1
+            },
+            {
+                "proimg": "../assets/images/Josh.jpg",
+                "userName": "JoshTheKing",
+                "id": 1,
+                "body": "Did I mention I'm the king?",
+                "likes": 5,
+                "dislikes": 149
+            }
+        ]
+    }
+}

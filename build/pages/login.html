@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Notfacebook</div>
+        <div class="nav">
+            <a href="../pages/signup.html">Sign Up</a>
+            <a id="active" href="../pages/login.html">Log In</a>
+        </div>
+    </header>
+    <div class="container-login">
+        <div class="left-side">
+        <div class="content-photo-side"><h1>Get People To Know More About You</h1></div>
+            <div id="signup-form">
+                <h2>Log In</h2>
+                <div class="profImg"><img class="profile-upload-label" src="../assets/images/blank-profile.png" alt="Profile-Image"></img></div>
+                <div class="field">
+                    <input type="text" placeholder="Username" id="username" required />
+                </div>
+                <div class="field">
+                    <input type="password" placeholder="Enter Password" id="password" required />
+                </div>
+                <div class="btns signup">
+                    <button id="signup-btn" onclick="userLogin(username.value, password.value)">Log In</button>
+                </div>
+                <div id="under-hint"></div>
+            </div>
+        </div>
+                <div class="photo-filler">
+                    <div class="content-photo-side"><h1>Connect With People All Over The World</h1></div>
+                    </div>
+
+        <script src="../scripts/login.js"></script>
+
+    </div>
+</body>
+
+</html>
